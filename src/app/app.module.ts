@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { RatingInputComponent } from './rating-input.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, RatingInputComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
